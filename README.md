@@ -18,6 +18,9 @@ http://arxiv.org/abs/1911.12247
 * OpenAI Atari_py version: 0.1.4: `pip install atari-py==0.1.4`
 * Scikit-image version 0.15.0 `pip install scikit-image==0.15.0`
 * Matplotlib version 3.0.2 `pip install matplotlib==3.0.2`
+* (For MacOS) if you don't have hdf5 `brew install hdf5`
+* (For MacOS) then install `conda install h5py`
+* (For MacOS) there is a directory in your root called `~/.matplotlib` and in this directory create the file `~/.matplotlib/matplotlibrc` and add the following code: `backend: TkAgg`
 
 ## Generate datasets
 
